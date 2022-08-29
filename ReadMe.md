@@ -9,18 +9,18 @@ Je bent net begonnen als developer bij een bedrijf dat TV's verkoopt: Tech It Ea
 Je hebt inmiddels je applicatie draaiende gekregen. Je hebt ook je database gevuld door middel van het `data.sql` bestand en je hebt de applicatie uitgebreid met een RemoteController, een CIModule en een WallBracket.
 
 ## Opdrachtbeschrijving
-In deze opdracht ga je een aantal belangrijke functionaliteiten van jou applicatie visualiseren met behulp van een sequentiediagram.
+In deze opdracht ga je een aantal belangrijke functionaliteiten van jouw applicatie visualiseren met behulp van een sequentiediagram.
 
 ## Randvoorwaarden
 
-De opdracht bevat minstens drie sequentie diagrammen voor elk een andere use case:
+De opdracht bevat minstens drie sequentiediagrammen met voor elk diagram een andere use case:
 - Voeg een RemoteController toe aan een Television
 - Voeg een CIModule toe aan een Television
 - Voeg een WallBracket toe aan een Television
 
 ### Belangrijk
 
-De sequentie diagrammen laten alle lagen van je applicatie zien en de communicatie die daartussen plaatsvindt.
+De sequentiediagrammen laten alle lagen van je applicatie zien en de communicatie die daartussen plaatsvindt.
 
 ## Stappenplan
 
@@ -28,7 +28,7 @@ _Let op_: het is uitdagender om jouw eigen stappenplan te maken. Mocht je niet z
 
 1. Maak een Actor lifeline.
 2. Maak een TelevisionController lifeline.
-3. Trek een comunicatie pijl tussen Actor en TelevisionController waaraan je de parameters van de `assignRemoteControllerToTelevision` methode aan meegeeft.
+3. Trek een communicatie pijl tussen Actor en TelevisionController waaraan je de parameters van de `assignRemoteControllerToTelevision` methode aan meegeeft.
 4. Maak een TelevisionService lifeline.
 5. Trek een communicatie pijl tussen TelevisionController en TelevisionService waaraan je de parameters van de `assignRemoteControllerToTelevision` methode aan meegeeft.
 6. Maak een TelevisionRepository lifeline.
@@ -49,7 +49,7 @@ _Let op_: het is uitdagender om jouw eigen stappenplan te maken. Mocht je niet z
 21. Trek een communicatie pijl van TelevisionRepository terug naar TelevisionService waaraan je de returnwaarde van de save() methode meegeeft.
 22. Trek een communicatie pijl van TelevisionService terug naar TelevisionController waaraan je de returnwaarde van de methode meegeeft.
 23. Trek een communicatie pijl van TelevisionController terug naar Actor waaraan je de juiste HttpStatus meegeeft.
-24. Dit stappenplan kun je nu gebruiken (met wat aanpassingen) om de sequentiediagrammen voor het toevoegen van een CIModule en het toevoegen van een WallBracket te tekenen.
+24. Hergebruik dit stappenplan (met wat aanpassingen) om de sequentiediagrammen voor het toevoegen van een CIModule en het toevoegen van een WallBracket te tekenen.
 
 ## Bonusopdracht
-Zoek nog een andere usecase die je kunt vertalen naar een sequentiediagram.
+Zoek nog een andere use case die je kunt vertalen naar een sequentiediagram.
